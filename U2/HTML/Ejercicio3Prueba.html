@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 3 Prueba</title>
+    <style>
+        .ej1{
+            background-color:deepskyblue;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+
+        .ej2{
+            margin-left: 95px;
+        }
+        .ej3{
+            margin-right: 95px;
+        }
+    </style>
 </head>
 <body>
-    <table>
+    <table border=0px>
+        <form>
         <tr>
-            <th colspan="2">IES ALIXAR Login</th>
+            <th colspan="2" class="ej1">IES ALIXAR Login</th>
         </tr>
         <tr>
             <td>Usuario</td>
@@ -71,6 +86,19 @@
                 </p>
             </td>
         </tr>
+        <tr>
+            <td>
+                <p>
+                    <input class="ej2" type="submit" value="Enviar"/>
+                </p>
+            </td>
+            <td>
+                <p>
+                    <input class="ej3" type="reset" value="Borrar"/>
+                </p>
+            </td>
+        </tr>
+        </form>
     </table>
 </body>
 </html>
