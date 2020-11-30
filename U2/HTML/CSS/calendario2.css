@@ -1,0 +1,46 @@
+[colspan="5"]{
+    background-color: yellow;
+}
+table{
+    width: 500px;
+    height: 300px;
+}
+
+td:first-child{
+    background-color: green;
+}
+
+th{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+a:visited{
+    color: red;
+}
+tbody tr :nth-child(6):hover{
+    font-size: 2em;
+}
+
+tbody td:last-child:hover{
+    font-size: 1.5em;
+}
+
+thead th::first-letter{
+    font-size: 1.6em;
+}
+
+span{
+    color:red;
+}
+
+input:first-of-type{
+    border-color: red;
+    width: 200px;
+    height: 25px;
+}
+
+
