@@ -4,28 +4,38 @@
 table{
     width: 500px;
     height: 300px;
+    border: 1px solid;
 }
 
-td:first-child{
+tbody td:first-child{
     background-color: green;
 }
 
 th{
     font-size: 20px;
+    border: 1px solid;
+}
+
+td{
+    border: 1px solid;
 }
 
 a{
     text-decoration: none;
+    }
+
+a:link{
     color: green;
 }
+
 a:visited{
     color: red;
 }
-tbody tr :nth-child(6):hover{
-    font-size: 2em;
+tr th:last-child:hover{
+    font-size: 1.5em;
 }
 
-tbody td:last-child:hover{
+tr td:last-child:hover{
     font-size: 1.5em;
 }
 
