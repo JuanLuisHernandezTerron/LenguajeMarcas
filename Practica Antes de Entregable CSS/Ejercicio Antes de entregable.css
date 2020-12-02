@@ -1,0 +1,8 @@
+label::after{
+    content: "Hola a todos";
+    color: red;
+}
+
+label::selection{
+    color: red;
+}
