@@ -1,0 +1,18 @@
+body {background-color: tan} -> Nos indica de que color va a ser el fondo de la página web.
+
+h1 {color:maroon; font-size:20pt} -> Tendremos un tipo de texto H1 (etiqueta) donde el color de la letra sea maroon y el 
+tamaño de la letra sea 20pt.
+
+hr {color:navy} -> HR nos crea una línea separatória en el html y como estilo hemos puesto que sea de color navy.
+
+p {font-size:12pt; margin-left: 15px} -> Dentro de un párrafo que es la p, tendremos un tamaño de letra de 12pt y un margen (espaciado) hacia la izquierda de 15 píxeles.
+p.verse {color:maroon; margin-left: 60px} -> Dentro del párrafo hemos creado una clase que se llame verse, tiene que ser de color maroon y un margen (espaciado) hacía la izquierda de 60 píxeles.
+
+a:link{color :green} -> Con :link podremos poner todas las etiquetas que sean <a href=""></a>, le podremos poner estilos, por ejemplo antes de dar click en el link
+que sea de color verde. 
+
+a:visited  {color:yellow} -> Con :visited queremos decir, que cuando sea visitado esa página web queremos que en vez de seguir en verde se cambie a color amarillo.
+
+a:hover    {color:black} -> Con :hover podremos hacer que cuando el cursos se pongan encima de la etiqueta <a href=""></a>, se ponga de color negro en la página web.
+
+a:active   {color:blue} -> Con :active , podremos que cuando clickeemos sobre una opción se ponga de color azul, en este caso es cuando cambiamos de idioma
