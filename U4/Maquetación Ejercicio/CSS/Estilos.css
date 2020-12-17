@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+.ej1{
+    background-color: rgb(161, 160, 160);
+}
+
+.ej2{
+    margin-top: 150px;
+    float: left;
+}
+
+.ej3{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid black;
+    width: 85px;
+    height: 300px;
+}
+img{
+    width: 84%;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+.ej4{
+    text-align: center;
+    font-size: 13px;
+}
+.ej5{
+    float: center;
+}
+
+.ej6{
+    background-color: rgb(78, 129, 27);
+    width: 60px;
+    height: 150px;
+}
+
+
