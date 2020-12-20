@@ -7,18 +7,22 @@
 }
 
 .ej2{
-    margin-top: 150px;
+    margin-top: 200px;
     float: left;
 }
 
 .ej3{
+
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border: 2px solid black;
-    width: 85px;
-    height: 300px;
+    width: 28%;
+    height: 380px;
 }
-img{
+.ej9{
     width: 84%;
     margin-top: 5%;
     margin-left: 7%;
@@ -28,13 +32,43 @@ img{
     font-size: 13px;
 }
 .ej5{
-    float: center;
+    margin:auto;
 }
 
 .ej6{
-    background-color: rgb(78, 129, 27);
-    width: 60px;
-    height: 150px;
+    background-color: rgb(197, 231, 163);
+    width: 70%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
+.ej7{
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 0;
+}
+.ej8{
+    
+    background-color: rgb(54, 54, 54);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50px;
+    margin-top: 30px;
+    
+}
+li{
+    font-size: 25px;
+    color: gray;
+    display: inline;
+    padding: 5px;
+    margin-right: 50px;
+}
+.ej10{
+    width: 30%;
+    height: 200px;
+}
+
 
 
