@@ -1,4 +1,0 @@
-¿por qué los últimos 5 párrafos se muestran de forma diferente que los 2 primeros? 
-Los 5 últimos párrafos son distinto a los 2 primeros ya que, las 2 primeros párrafos tienen un clase 
-que le dan distinto estilos (En la class verse que es la que tiene, dentro de la class contiene que sea de color maroon y el espaciado de izquierda),
-en cambio los 5 últimos párrafos tienen un distinto estilo sin una class, su estilo de la etiqueta en el CSS es (Tamaño de la letra de 12 pt y el espaciado de izquierda de 60px) 
