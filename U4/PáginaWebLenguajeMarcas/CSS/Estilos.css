@@ -42,7 +42,7 @@ a{
 
 .InformacionCentral{
     background-color: rgb(196, 187, 182);
-    height: 700px;
+    height: 770px;
     margin-top: -50px;
 }
 
@@ -83,6 +83,7 @@ a{
     font-size: 17px;
     font-weight: bold;
     width: 96%;
+    font-style: italic;
 }
 
 .divderecha{
@@ -95,17 +96,67 @@ a{
     float: right;
     margin-top: -500px;
     width: 45%;
-    height: 497px;
+    height: 585px;
 }
 
-h1{
+.h1{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.label{
+    margin-left: 15px;
+}
+input{
+    margin-left: 15px;
+    width: 90%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.option{
+    margin-left: 15px;
+    width: 90%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 30px;
+}
+
+button{
+    margin-left: 15px;
+    width: 90%;
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgb(169, 78, 255);
+    color: white;
+}
+
+textarea{
+    margin-left: 15px;
+    width: 90%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    margin-left: 15px;
+    width: 90%;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 30px;
+}
+
+footer{
+    
+}
 
 
 
