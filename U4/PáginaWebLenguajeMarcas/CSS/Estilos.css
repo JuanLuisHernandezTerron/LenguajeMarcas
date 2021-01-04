@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+.divprincipal{
+    background-color: white;
+    width: 65%;
+    height: 800px;
+    margin: auto;
+    margin-top: -25px;
+}
+
+.divnavegador{ 
+    position: sticky;
+    top:0;
+}
+
+.navprincipal{
+    background-color: rgb(34, 33, 33);
+    height: 50px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.letranav{
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.15em;
+    margin-left: 5px;
+    transition: transform .5s;
+    
+}
+
+.letranav:hover{
+
+    transform: scale(0.9);
+    color: gray;  
+}
+
+.InformacionCentral{
+    background-color: rgb(196, 187, 182);
+    height: 700px;
+    margin-top: -50px;
+}
+
+.parrafoletra{
+    height: 150px;
+    margin-top: 50px;
+}
+
+.parrafo{
+    margin-right: 15px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 25px;
+}
+
+.parrafo1{
+    margin-top: -40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.izquierda{
+    width: 53%;
+    height: 500px;
+}
+
+.vinoimagen{
+    width: 90%;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.parrafovino{
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 96%;
+}
+
+.divderecha{
+    width: 45%;
+    height: 497px;
+}
+
+.derecha{
+    background-color: rgb(223, 223, 223);
+    float: right;
+    margin-top: -500px;
+    width: 45%;
+    height: 497px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
