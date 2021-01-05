@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(252, 249, 240);
+}
+
 .divprincipal{
     background-color: white;
     width: 65%;
@@ -163,14 +167,12 @@ input{
 }
 
 .table{
-    border: 1px black solid;
     width: 90%;
     height: 400px;
     margin: auto;
 }
 
 td{
-    border: 1px black solid;
     width: 30%;
     height: 170px;
 }
@@ -189,18 +191,17 @@ td{
 }
 
 #perfil3{
+    margin: auto;
     width: 63%;
     margin-left: 60px;
     height: 200px;
     border-radius: 50%;
 }
 
-.footerparrafo{
-    margin-bottom: 100px;
-}
-
-ul{
-    
+li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 
