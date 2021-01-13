@@ -1,0 +1,171 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 10px auto;
+    width: 98%;
+    height: 640px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.navegador{
+    width: 100%;
+    height: 40px;
+}
+
+.navegador nav{
+    position: sticky;
+    top: 0%;
+    background-color: black;
+}
+
+.navegador nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+   line-height: 40px;
+   margin-right: 150px;
+   margin-left: -30px;
+}
+
+.aside{
+    width: 15%;
+    margin-top: 5px;
+    float: left;
+}
+
+.aside nav{
+    background-color: black;
+    height: 450px;
+}
+
+.aside nav ul li{
+    color: white;
+    list-style: none;
+    font-size: 17px;
+    margin-left: -25px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.foto1{
+    width: 26.5%;
+    height: 230px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.foto1 img{
+    width: 40%;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 8px;
+}
+
+.foto1 p{
+    text-align: center;
+    font-size: 13px;
+    margin: 5px;
+}
+
+.foto2{
+    width: 26.5%;
+    height: 230px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.foto2 img{
+    width: 40%;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 8px;
+}
+
+.foto2 p{
+    text-align: center;
+    font-size: 13px;
+    margin: 5px;
+}
+
+.foto3{
+    width: 26.5%;
+    height: 230px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.foto3 img{
+    width: 40%;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 8px;
+}
+
+.foto3 p{
+    text-align: center;
+    font-size: 13px;
+    margin: 5px;
+}
+
+.frase1{
+    width: 26.5%;
+    height: 150px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.frase1 p{
+    margin: 5px;
+}
+
+.frase2{
+    width: 26.5%;
+    height: 150px;
+    float: left;
+    margin-top: 10px;
+}
+
+.frase2 p {
+    margin: 5px;
+}
+
+.frase3{
+    width: 26.5%;
+    height: 150px;
+    float: left;
+    margin-top: 10px;
+}
+
+.frase3 p{
+    margin: 5px;
+}
+
+.footer{
+    width: 100%;
+    height: 60px;
+    float: left;
+    background-color: gray;
+}
+
+.footer footer p{
+    text-align: center;
+    line-height: 30px;
+}
