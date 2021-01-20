@@ -59,7 +59,7 @@ a{
     width: 100%;
     margin-right: 15px;
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 25px;
@@ -70,6 +70,8 @@ a{
     text-align: center;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 15px;
+
 }
 
 .izquierda{
@@ -81,7 +83,7 @@ a{
 .vinoimagen{
     width: 90%;
     margin-left: 35px;
-    margin-top: 10px;
+    
 }
 
 .parrafovino{
@@ -100,9 +102,9 @@ a{
 .derecha{
     background-color: rgb(223, 223, 223);
     float: right;
-    margin-top: -580px;
+    margin-top: -600px;
     width: 45%;
-    height: 585px;
+    height: 620px;
     overflow-y: auto;
 }
 
