@@ -1,0 +1,21 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 20% 40% 20%;
+    grid-template-rows: [uno] 200px [dos] 300px [tres] 150px;
+}
+
+header{
+   grid-column-start: 1;
+   grid-column-end: 4;
+}
+header h1{
+    text-align: center;
+
+}
