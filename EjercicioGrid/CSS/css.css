@@ -94,5 +94,5 @@ footer address{
     grid-row: 1/2;
     justify-self: right;
     margin-right: 25px;
-    align-self: center;
+       align-self: center;
 }
