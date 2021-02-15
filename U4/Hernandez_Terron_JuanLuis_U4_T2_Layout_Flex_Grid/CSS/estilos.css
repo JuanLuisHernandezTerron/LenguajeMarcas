@@ -133,9 +133,10 @@ footer{
     background-color: rgb(226, 226, 226);
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 150px;
+    grid-template-rows: 200px 200px;
     grid-column-gap: 5%;
     grid-row-gap: 20px;
+    text-align: center;
 }
 footer div{
     margin-top: 25px;
@@ -143,5 +144,36 @@ footer div{
 
 footer #perfil1,#texto1{
     margin-left: 10px;
+}
+
+footer #perfil1 img{
+    width: 63%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+footer  #perfil2 img{
+    margin-left: 10px;
+    width: 63%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+footer  #perfil3 img{
+    width: 63%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+li{
+    list-style-type: none;
+}
+
+#texto2 ul li{
+    margin-right: 36px;
+}
+
+#texto3 ul li{
+    margin-right: 36px;
 }
 
