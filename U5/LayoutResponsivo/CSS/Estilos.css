@@ -84,6 +84,7 @@ main #InformacionPrimaria h1{
 main #InformacionPrimaria img{
     min-width: 200px;
     width: 100%;
+    max-width: 526px;
 }
 /*--------------------------------MAIN 2--------------------------------------*/
 main #Informacion-variasimg{
@@ -121,10 +122,11 @@ main #Informacion-variasimg #variasIMG picture img{
     text-align: center;
     margin-top: 10px;
     width: 45%;
+    margin-left: 20%;
+    margin-right: 20%;
     border: 8px solid white;
-    display: block;
+    max-width: 220.688px;
 }
-
 
 #imagen-mujer{
     display: none;
@@ -138,7 +140,7 @@ hr{
 
 /*------------------------Footer-Movil-------------------------------------*/
 footer{
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0);
     grid-column: 1/2;
     grid-row: 4/5;
     display: grid;
@@ -162,26 +164,96 @@ footer #Texto-RSS #texto h2{
 #RSS{
     grid-row: 2/3;
     grid-column: 1/2;
+    width: 100%;
     text-align: center;
 }
 
 i{
     color: white;
-    margin: 5px;
-    width: 10vw;
-    height: 40px;
+    margin: 2px;
+    width: 10%;
 }
 /*--------------------------------------TABLET----------------------------------------*/
 
-@media screen and (min-width: 556px){
+@media screen and (min-width: 576px){
     #container{
         width: 90%;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 80px 530px 300px 230px;
+        grid-template-rows: 100px 550px 530px 370px;
     }
+/*---------------------------------------MAIN-TABLET--------------------------------*/
+main{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 470px 650px;
+}
+/*--------------------------------------MAIN-TABLET-1----------------------------------*/
+
+main #InformacionPrimaria #titulo1{
+    font-size: 3vw;
 }
 
+main #InformacionPrimaria #titulo2{
+    font-size: 2vw;
+}
+
+main #InformacionPrimaria h1{
+    font-size: 6vw;
+}
+
+
+/*--------------------------------------MAIN-TABLET-2----------------------------------*/
+main #Informacion-variasimg{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgba(0, 0, 0, 0.356);
+    text-align: center;
+}
+
+main #Informacion-variasimg #variasIMG picture img{
+    border: 9px solid white;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 33%;
+}
+
+#imagen-mujer{
+    display:initial;
+}
+main #Informacion-variasimg #tit-variasIMG input{
+    font-size: 2vw;
+    height: 40px;
+    width: 25vw;
+    margin-bottom: 5%;
+}
+
+main #Informacion-variasimg #tit-variasIMG #text1{
+    font-size: 3vw;
+}
+
+main #Informacion-variasimg #tit-variasIMG #text2{
+   font-size: 3vw;
+}
+
+/*---------------------------------------FOOTER--------------------------------------*/
+footer{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+
+footer #Texto-RSS #texto h2{
+    font-size: 3.5vw;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 45px;
+}
+
+#RSS{
+    padding-bottom: 30px;
+}
 /*--------------------------------------Ordenador------------------------------------*/
 
 @media screen and (min-width: 992px){
@@ -189,7 +261,7 @@ i{
         width: 90%;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 90px 530px 300px 230px;
+        grid-template-rows: 90px 530px 320px 230px;
     }
 /*----------------------------------------MAIN-----------------------------------------*/
 /*--------------------------------------1 IMAGEN----------------------------------------*/
